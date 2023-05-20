@@ -1,0 +1,142 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 201, 201);
+  }
+
+  .sidebar {
+    width: 90px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid rgb(211, 201, 201);
+  }
+  
+  .logo {
+    position: relative;
+   
+
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .notification {
+    position: relative;
+  }
+  
+  .badge-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  img
+  {
+    height:55px;
+  }
+  
+
+  .inp
+  {
+    width: 400px;
+    background-color: rgba(241, 240, 240, 0.699);
+    border: #ffffff;
+    left: 600px;
+    
+  }
+
+ .dropdown
+ {
+  background-color: #ffffff;
+  color:black;
+  width: 100px;
+  font-weight: bold;
+  left: 50px;
+ }
+
+ .card {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-shadow: 0 2px 4px rgba(80, 71, 71, 0.1);
+  padding: 16px;
+  position: absolute;
+  top: 20%;
+  left: 16.4%;
+  transform: translate(-50%, -50%);
+}
+
+b {
+  top: 1px;
+  font-weight: bold;
+  font-size: larger; 
+  color: #000;
+ 
+}
+
+.alertimg
+{
+  width: 25px;
+  height: 25px;
+
+}
+
+.inpp
+{
+  top: 10px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.699);
+ 
+  left: 600px;
+  height: 45px;
+  
+}
+
+.div1 {
+  margin-top: 18px;
+ 
+}
+
+.item
+{
+  margin-left: 10px;
+}
+
+.searchimg
+{
+  height: 20px;
+}
+
+.navbarr {
+  margin-left: -25px; 
+  margin-right: -15px;
+}
+
+.nav-link{
+  margin-right: 10px; }
+
+.nav-link.active {
+    color: rgb(236, 131, 10);
+    border-bottom: solid rgb(255, 123, 0); 
+    
+  }
+
+  
+  .navbarrsecond{
+    margin-left: -25px; 
+    margin-right: -15px;
+  }
